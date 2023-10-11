@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+.active {
+    width: 40% !important;
+    z-index: 20 !important;
+}
+
+.menu-hide {
+    display: inline-block !important;
+}
+
+/*sidebar css*/
+
+section#sidebar{
+color: #ffff;
+width: 20%;
+margin-top: 0;
+margin-left: 0;
+height: 100%;
+z-index: 20;
+position: fixed;
+transition: all 0.5s linear;
+flex-direction: column;
+background-position: center center;
+background-color: rgb(55, 55, 213);
+}
+.sidebar-brand{
+ height: 5vh;
+ display: flex;
+ padding: 50px 50px;
+ font-size: 20px;
+}
+.sidebar-menu{
+    margin-top: 50px;
+}
+.sidebar-menu ul li a{
+    display: flex;
+    color: #ffff;
+    font-size: 16px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+.sidebar-menu ul li span{
+   color: #ffff;
+    text-align: center;
+}
+.sidebar-menu li:hover{
+    background: rgba(184, 180, 180, 0.5);
+  
+}
+.sidebar-menu ul li a {
+    color: #bbb;
+    display: block;
+    padding: 10px 40px;
+}
+
+.sidebar-menu ul li span {
+    padding-left: 10px;
+}
+
+.sidebar-menu ul li {
+    transition: all 0.5s ease;
+}
+
+.sidebar-brand {
+    padding: 30px 35px;
+}
+
+/**main-content css**/
+
+section#main-content {
+    width: 80%;
+     float: right;
+ }
+.sidebar-menu{
+    letter-spacing: normal;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1px;
+    margin-top: 50px;
+}
+header {
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #ccc;
+    width: 100%;
+    position: fixed;
+}
+.header-left{
+    float: left;
+    width: 33%;
+    padding: 20px;
+    font-size: 20px;
+}
+.header-left{
+    padding: 15px 5px;
+}
+.header-left h2 {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: bold;
+    color: rgb(55, 55, 213);
+}
+.header-left p{
+    color: #bbb;
+    
+}
+.header-left img {
+    width: 13%;
+    float: left;
+    padding: 10px;
+}
+input.search-bar {
+    width: 50%;
+    border: 2px solid #bbb;
+    border-radius: 22px;
+    padding: 10px 10px;
+    font-size: 15px;
+    transition: width 1s ease;
+}
+
+input.search-bar:focus{
+    outline: none;
+    border: 2px solid #bbb;
+    width: 93%;
+}
+.header-left span i{
+    float: left;
+    margin-top: 5%;
+    padding: 1%;
+   
+}
+
+i.fas.fa-search {
+    background-color: rgb(55, 55, 213);
+    color: #ffff;
+    width: 35px;
+    height: 41px;
+    line-height: 38px;
+    text-align: center;
+    margin-left: -36px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+Body{
+    margin: 0;
+    padding: 8px 8px;
+    background-color: white;
+    box-sizing: border-box;
+    
+ }
+
+  .main {
+    background-color: #1244db;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px; 
+    height: 600px;
+    width: 580px;
+    margin: 12% auto 0;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 4px 4px 6px 8px rgba(29, 28, 28, 0.122); 
+    
+  }
+  .main h1{
+     font-size: 30px;
+     line-height: 40px;
+     padding: 20px;
+     text-decoration: none;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+  } 
+  .content .input-field{
+    display: inline-block;
+     width: 300px;
+     margin-bottom: 10px auto;
+     font-size: 15px;
+     box-sizing: border-box;
+  }
+  input[type=text]{
+     width: 300px;
+     padding: 12px  20px;
+     transition: all 0.3s ease;
+     border-width: 2px;
+     box-sizing: border-box; 
+     justify-content: space-between; 
+     margin: 5px;
+ }
+ .dropdown{
+    width: 300px;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    margin: 10px;
+ }
+  .input-field .button{
+     font-size: 20px;
+     font-family: italic;
+     width: 100%;
+     color: white;
+     border-radius:0px 50%;
+     background-color: 2px solid rgb(24, 24, 219);
+     padding: 10px;
+  }
+  label{
+   float: left;
+}
